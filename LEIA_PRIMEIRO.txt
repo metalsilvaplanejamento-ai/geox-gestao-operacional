@@ -1,0 +1,12 @@
+GEOX - MENU LATERAL REV03
+
+Arquivos para atualizar no repositorio EXISTENTE:
+- index.html
+- assets/app.js
+- assets/style.css
+
+Nao altere assets/logo.png, Supabase ou banco de dados.
+No GitHub, abra cada arquivo, clique no lapis (Edit), substitua o conteudo e confirme o commit.
+Depois abra o site e use Ctrl+F5.
+
+Menus: Dashboard; Ordem de servico (OS, Equipamentos, Manutencoes, Obras); Logistica (Remessas, Itens, Almoxarifado, Estoque, Caminhoes); Usuarios e permissoes para administradores.
