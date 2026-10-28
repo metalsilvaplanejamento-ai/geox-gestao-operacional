@@ -1,12 +1,4 @@
-GEOX - MENU LATERAL REV03
-
-Arquivos para atualizar no repositorio EXISTENTE:
-- index.html
-- assets/app.js
-- assets/style.css
-
-Nao altere assets/logo.png, Supabase ou banco de dados.
-No GitHub, abra cada arquivo, clique no lapis (Edit), substitua o conteudo e confirme o commit.
-Depois abra o site e use Ctrl+F5.
-
-Menus: Dashboard; Ordem de servico (OS, Equipamentos, Manutencoes, Obras); Logistica (Remessas, Itens, Almoxarifado, Estoque, Caminhoes); Usuarios e permissoes para administradores.
+GEOX REV04 - Painéis de OS e Logística e correção de submenus.
+Substitua no repositório GitHub os arquivos index.html, assets/app.js e assets/style.css, preservando os caminhos.
+Não altere o banco Supabase nem os demais arquivos. Atualize com Ctrl+F5.
+Tempo de roteiro é a duração REAL registrada, não previsão por GPS.
