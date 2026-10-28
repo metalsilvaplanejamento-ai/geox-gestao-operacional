@@ -25,3 +25,22 @@ main#workspace{max-width:none;margin:0;padding:0}
 .ops-card span{font-size:12px;font-weight:700;color:#745764}.ops-card strong{font-size:28px;color:#651d34}.ops-card small{font-size:11px;color:#88777f}
 .ops-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:18px}.ops-panel{border:1px solid #e9dce1;border-radius:12px;padding:20px;background:#fff;margin-bottom:15px}.ops-panel h3{margin:0 0 17px;font-size:15px;color:#542338}.ops-bar-row{margin:13px 0}.ops-bar-label{display:flex;justify-content:space-between;gap:12px;font-size:12px;margin-bottom:6px}.ops-track{background:#f4e9ee;height:10px;border-radius:20px;overflow:hidden}.ops-fill{height:100%;background:#8a3552;border-radius:20px;min-width:2px}
 @media(max-width:1100px){.ops-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:680px){.ops-cards,.ops-grid{grid-template-columns:1fr}}
+
+/* REV05 — interface alinhada à prévia aprovada */
+.workspace-content{background:#f8f5f6;max-width:none}
+.workspace-content>.card{background:transparent;border:0;box-shadow:none;padding:0}
+.workspace-content>.card>.topline{background:#fff;border:1px solid #eadfe3;border-radius:11px;padding:17px 19px;margin-bottom:15px}
+.workspace-content>.topline{margin-bottom:20px}
+.workspace-content>.topline h1{font-size:22px}
+.workspace-content #metrics:empty{display:none}
+.ops-cards{grid-template-columns:repeat(4,minmax(0,1fr));margin:18px 0}
+.ops-card{padding:17px;border-radius:11px}
+.ops-card strong{font-size:27px}
+.ops-grid{gap:13px}
+.ops-panel{padding:18px;border-radius:11px}
+.gx-alert{display:flex;align-items:center;gap:13px;padding:10px 0;border-bottom:1px solid #f0e8ec}
+.gx-alert:last-child{border-bottom:0}.gx-alert strong{font-size:23px;color:#70213d;min-width:35px}.gx-alert span{font-size:13px;color:#64545c}
+#nav .side-parent.expanded{background:#f6ebef;color:#651d34}
+#nav .side-children.hidden{display:none!important}
+@media(max-width:1150px){.ops-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.ops-cards,.ops-grid{grid-template-columns:1fr}}
