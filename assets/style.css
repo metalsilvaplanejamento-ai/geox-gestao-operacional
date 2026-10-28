@@ -18,3 +18,10 @@ main#workspace{max-width:none;margin:0;padding:0}
 #nav .side-child{font-size:12px;padding:10px 11px}
 @media(max-width:850px){.workspace-layout{grid-template-columns:1fr}.sidebar{border-right:0;border-bottom:1px solid #e8dce1;padding:13px}.sidebar-title,.sidebar-foot{display:none}.workspace-content{padding:16px 12px}.metrics{margin:15px 0}#nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));align-items:start}.side-group{min-width:0}}
 @media print{.sidebar{display:none!important}.workspace-layout{display:block}.workspace-content{padding:0}}
+
+/* GEOX v4 — painéis operacionais */
+.ops-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:18px 0 24px}
+.ops-card{background:#fff;border:1px solid #e9dce1;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:8px;box-shadow:0 3px 14px #2b102008}
+.ops-card span{font-size:12px;font-weight:700;color:#745764}.ops-card strong{font-size:28px;color:#651d34}.ops-card small{font-size:11px;color:#88777f}
+.ops-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:18px}.ops-panel{border:1px solid #e9dce1;border-radius:12px;padding:20px;background:#fff;margin-bottom:15px}.ops-panel h3{margin:0 0 17px;font-size:15px;color:#542338}.ops-bar-row{margin:13px 0}.ops-bar-label{display:flex;justify-content:space-between;gap:12px;font-size:12px;margin-bottom:6px}.ops-track{background:#f4e9ee;height:10px;border-radius:20px;overflow:hidden}.ops-fill{height:100%;background:#8a3552;border-radius:20px;min-width:2px}
+@media(max-width:1100px){.ops-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:680px){.ops-cards,.ops-grid{grid-template-columns:1fr}}
