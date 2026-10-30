@@ -1,0 +1,9 @@
+GEOX REV06 - PACOTE PREPARATÓRIO (NÃO É A VERSÃO FINAL PARA SUBSTITUIR O SITE)
+
+Este pacote contém a estrutura SQL inicial de almoxarifados por obra.
+NÃO envie este ZIP substituindo os arquivos atuais do GitHub.
+
+A estrutura inclui: almoxarifados por obra, acessos por usuário, saldos por local e histórico de movimentações.
+A operação de transferência ainda precisa de função transacional segura, regras de autorização administrativas e integração com a interface existente.
+
+Para evitar interromper o sistema em produção, mantenha a REV05 publicada até a integração e os testes completos.
