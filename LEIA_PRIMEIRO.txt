@@ -1,4 +1,0 @@
-GEOX REV04 - Painéis de OS e Logística e correção de submenus.
-Substitua no repositório GitHub os arquivos index.html, assets/app.js e assets/style.css, preservando os caminhos.
-Não altere o banco Supabase nem os demais arquivos. Atualize com Ctrl+F5.
-Tempo de roteiro é a duração REAL registrada, não previsão por GPS.
