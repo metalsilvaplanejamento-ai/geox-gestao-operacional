@@ -1,0 +1,15 @@
+# Checklist antes de publicar
+- [ ] Backup do GitHub restaurável
+- [ ] Backup completo do Supabase restaurável
+- [ ] Login e permissões atuais preservados
+- [ ] Dashboard geral consolida dados reais
+- [ ] Cada setor tem gráficos e registros próprios
+- [ ] Menus expansíveis abrem/fecham corretamente
+- [ ] Cadastro e histórico por caminhão
+- [ ] Roteiros com horários e KM consistentes
+- [ ] Abastecimentos e limpezas por caminhão
+- [ ] Saldos separados por almoxarifado
+- [ ] Transferências atômicas e sem estoque negativo
+- [ ] RLS: almoxarife de uma obra não acessa outra
+- [ ] Impressão A4 em cada serviço com logo e dados da empresa
+- [ ] Teste em homologação antes da produção
