@@ -1,0 +1,8 @@
+/* GEOX REV06 - estilos complementares, ainda não integrados ao index.html */
+:root { --geox:#651d34; --geox-soft:#f6edf1; }
+.geox-sector { border:1px solid #e4d7dc; border-radius:10px; padding:16px; background:#fff; }
+.geox-sector h2 { color:var(--geox); margin-top:0; }
+.geox-kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(145px,1fr)); gap:12px; }
+.geox-kpi { border:1px solid #e4d7dc; border-radius:8px; padding:12px; }
+.geox-kpi strong { display:block; font-size:24px; color:var(--geox); }
+@media print { @page { size:A4; margin:15mm; } .geox-no-print { display:none!important; } }
